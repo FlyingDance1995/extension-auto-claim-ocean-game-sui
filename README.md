@@ -1,0 +1,1 @@
+# extension-auto-claim-ocean-game-sui
