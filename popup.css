@@ -1,0 +1,13 @@
+/* Muốn thêm CSS thì code vào file này */
+
+* {
+    box-sizing: border-box;
+}
+.popup-wrapper {
+    margin: 0;
+    overflow: hidden;
+    width: 360px;
+    min-height: 100%;
+    font-family: Inter,Helvetica,Arial,sans-serif;;
+    font-size: 14px;
+}
