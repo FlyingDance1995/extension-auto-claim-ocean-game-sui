@@ -2,6 +2,7 @@ function isTelegram(url) {
     let currentUrl = new URL(url)['host'];
     let isTele = currentUrl['indexOf']('web.telegram.org') > -1;
     if (isTele ||  currentUrl['indexOf']('pages.fm') > -1) {
+        console.log('Phát hiện ra website telegram !!!')
         return true
     };
     return false
