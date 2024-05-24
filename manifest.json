@@ -1,8 +1,32 @@
 {
   "manifest_version": 3,
   "name": "Auto Claim Ocean",
-  "version": "0.1",
+  "version": "1.0",
+  "description": "My extension auto claim Ocean in ecosystem SUI",
+  "permissions": [
+    "activeTab",
+    "scripting",  
+    "tabs", 
+    "declarativeNetRequest",
+    "cookies",
+    "storage",
+    "activeTab"
+  ],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
 }
