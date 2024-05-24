@@ -1,13 +1,43 @@
-/* Muốn thêm CSS thì code vào file này */
+/* Muốn thêm CSS vào file popup.html thì code vào file này */
 
 * {
     box-sizing: border-box;
 }
-.popup-wrapper {
-    margin: 0;
-    overflow: hidden;
-    width: 360px;
-    min-height: 100%;
-    font-family: Inter,Helvetica,Arial,sans-serif;;
-    font-size: 14px;
+
+#popupStyle {
+    width: 300px;
+    padding: 15px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Nút button style primary của Ant Design */
+.ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+    color: #fff;
+}
+
+.ant-btn-primary:active,
+.ant-btn-primary.active {
+    background-color: #096dd9;
+    border-color: #096dd9;
+    color: #fff;
+    }
+
+.ant-btn-primary.disabled,
+.ant-btn-primary[disabled] {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: none;
+    box-shadow: none;
 }

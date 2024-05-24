@@ -1,4 +1,4 @@
-/* Muốn thêm CSS thì code vào file này */
+/* Muốn thêm CSS ghi đè lên trang web thì code vào file này */
 .notify-block {
     display: flex;
     align-items: center;
@@ -10,9 +10,4 @@
     bottom: 0;
     z-index: 999;
     background: #2d8cf0;
-}
-
-.notify-block h1 {
-    font-size: 50px;
-    color: #ffffff;
 }
